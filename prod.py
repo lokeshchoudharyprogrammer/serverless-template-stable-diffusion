@@ -16,3 +16,4 @@ image_encoded = image_byte_string.encode('utf-8')
 image_bytes = BytesIO(base64.b64decode(image_encoded))
 image = Image.open(image_bytes)
 image.save("output.jpg")
+
